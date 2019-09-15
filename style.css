@@ -1,1 +1,120 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+*, html, body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'fontsrusregular';
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header img {
+  height: 250px;
+}
+
+.navbar {
+  background: #272B2B;
+  width: 100%;
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-links {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 75%;
+}
+
+.nav-links li a {
+  color: #CCD6DD;
+  text-decoration: none;
+  font-size: 20px;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.nav-links li a:hover {
+  color: #DD2E44;
+}
+
+.social-links {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 25%;
+}
+
+.social-links li {
+  color: #CCD6DD;
+  font-size: 20px;
+}
+
+.social-links li a {
+  color: #CCD6DD;
+  text-decoration: none;
+  font-size: 32px;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.social-links li a:hover {
+  color: #DD2E44;
+}
+
+@media screen and (max-width: 1366px) {
+  .navbar {
+    height: 8vh;
+  }
+}
+/*# sourceMappingURL=style.css.map */
