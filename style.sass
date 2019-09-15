@@ -20,7 +20,7 @@ header
     justify-content: center
     flex-direction: column
     img
-        height: 250px
+        height: 220px
     h1
         margin-top: 70px;
         color: #DD2E44
@@ -74,7 +74,43 @@ header
             transition: all .2s ease
             &:hover
                 color: #DD2E44
+
+.dogs
+    display: flex
+    align-items: center
+    justify-content: space-around
+    padding: 2em 1em
+
+.dog
+    text-align: center
+    color: #DD2E44
+    font-weight: bold
+    .doguinho
+        border-radius: 1em
+        background: #272B2B
+        height: 170px
+        img
+            border-radius: 1em
+            height: 100%
+            clip-path: circle(35% at 50% 50%)
+            transition: clip-path .4s ease
+            &:hover
+                clip-path: circle(100% at 50% 50%)
+                cursor: pointer
    
+
+footer
+    background: #272B2B
+    color: #DD2E44
+    height: 3vh
+    width: 100%
+    position: absolute
+    bottom: 0
+    text-align: center
+    a
+        color: #CCD6DD
+        text-decoration: none
+
 
 @media screen and ( max-width: 1366px )
     .navbar

@@ -32,7 +32,7 @@ header {
 }
 
 header img {
-  height: 250px;
+  height: 220px;
 }
 
 header h1 {
@@ -125,6 +125,62 @@ header h1 {
 
 .social-links li a:hover {
   color: #DD2E44;
+}
+
+.dogs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2em 1em;
+}
+
+.dog {
+  text-align: center;
+  color: #DD2E44;
+  font-weight: bold;
+}
+
+.dog .doguinho {
+  border-radius: 1em;
+  background: #272B2B;
+  height: 170px;
+}
+
+.dog .doguinho img {
+  border-radius: 1em;
+  height: 100%;
+  -webkit-clip-path: circle(35% at 50% 50%);
+          clip-path: circle(35% at 50% 50%);
+  -webkit-transition: -webkit-clip-path .4s ease;
+  transition: -webkit-clip-path .4s ease;
+  transition: clip-path .4s ease;
+  transition: clip-path .4s ease, -webkit-clip-path .4s ease;
+}
+
+.dog .doguinho img:hover {
+  -webkit-clip-path: circle(100% at 50% 50%);
+          clip-path: circle(100% at 50% 50%);
+  cursor: pointer;
+}
+
+footer {
+  background: #272B2B;
+  color: #DD2E44;
+  height: 3vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+footer a {
+  color: #CCD6DD;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1366px) {
