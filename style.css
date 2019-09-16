@@ -134,9 +134,25 @@ header h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 2em 1em;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 5em 1em;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.dogs h2 {
+  text-align: center;
+  -ms-flex-preferred-size: break;
+      flex-basis: break;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-negative: 5;
+      flex-shrink: 5;
+  width: 100%;
+  margin-bottom: 3em;
+  color: #272B2B;
 }
 
 .dog {
