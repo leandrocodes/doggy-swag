@@ -79,7 +79,7 @@ header
     display: flex
     align-items: center
     justify-content: space-evenly
-    padding: 5em 1em
+    padding: 2.15em 1em
     flex-wrap: wrap
     h2
         text-align: center
@@ -87,7 +87,7 @@ header
         justify-self: center
         flex-shrink: 5
         width: 100%
-        margin-bottom: 3em
+        margin-bottom: 1em
         color: #272B2B
 
 .dog
@@ -106,6 +106,40 @@ header
             &:hover
                 clip-path: circle(100% at 50% 50%)
                 cursor: pointer
+
+.help
+    display: flex
+    align-items: center
+    justify-content: space-evenly
+    padding: 2.15em 1em
+    flex-wrap: wrap
+    h2
+        text-align: center
+        flex-basis: break
+        justify-self: center
+        flex-shrink: 5
+        width: 100%
+        margin-bottom: 1em
+        color: #272B2B
+
+.help-card
+    text-align: center
+    color: #DD2E44
+    font-weight: bold
+    .card
+        border-radius: 1em
+        box-shadow: 2px 4px 10px -5px #272B2B
+        background: #CCD6DD
+        height: 500px
+        width: 300px
+        padding: .5em
+        img
+            border-radius: 1em
+            width: 70%
+            transition: clip-path .4s ease
+
+            &:hover
+                cursor: pointer
    
 
 footer
@@ -113,8 +147,6 @@ footer
     color: #DD2E44
     height: 3vh
     width: 100%
-    position: absolute
-    bottom: 0
     text-align: center
     a
         color: #CCD6DD

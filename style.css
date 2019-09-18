@@ -137,7 +137,7 @@ header h1 {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding: 5em 1em;
+  padding: 2.15em 1em;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -151,7 +151,7 @@ header h1 {
   -ms-flex-negative: 5;
       flex-shrink: 5;
   width: 100%;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   color: #272B2B;
 }
 
@@ -184,13 +184,68 @@ header h1 {
   cursor: pointer;
 }
 
+.help {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 2.15em 1em;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.help h2 {
+  text-align: center;
+  -ms-flex-preferred-size: break;
+      flex-basis: break;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-negative: 5;
+      flex-shrink: 5;
+  width: 100%;
+  margin-bottom: 1em;
+  color: #272B2B;
+}
+
+.help-card {
+  text-align: center;
+  color: #DD2E44;
+  font-weight: bold;
+}
+
+.help-card .card {
+  border-radius: 1em;
+  -webkit-box-shadow: 2px 4px 10px -5px #272B2B;
+          box-shadow: 2px 4px 10px -5px #272B2B;
+  background: #CCD6DD;
+  height: 500px;
+  width: 300px;
+  padding: .5em;
+}
+
+.help-card .card img {
+  border-radius: 1em;
+  width: 70%;
+  -webkit-transition: -webkit-clip-path .4s ease;
+  transition: -webkit-clip-path .4s ease;
+  transition: clip-path .4s ease;
+  transition: clip-path .4s ease, -webkit-clip-path .4s ease;
+}
+
+.help-card .card img:hover {
+  cursor: pointer;
+}
+
 footer {
   background: #272B2B;
   color: #DD2E44;
   height: 3vh;
   width: 100%;
-  position: absolute;
-  bottom: 0;
   text-align: center;
 }
 
