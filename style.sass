@@ -9,6 +9,7 @@
 
 body
     font-family: 'Quicksand', sans-serif
+    height: 100%
 
 h1, h2, h3, h4, h5, h6
     font-family: 'fontsrusregular'
@@ -131,16 +132,19 @@ header
         box-shadow: 2px 4px 10px -5px #272B2B
         background: #CCD6DD
         height: 500px
-        width: 300px
-        padding: .5em
+        width: 250px
+        padding: 1em
         img
             border-radius: 1em
-            width: 70%
+            width: 80%
             transition: clip-path .4s ease
 
             &:hover
                 cursor: pointer
-   
+        h3
+            margin-bottom: 25px
+        p
+            text-align: justify
 
 footer
     background: #272B2B
@@ -148,6 +152,8 @@ footer
     height: 3vh
     width: 100%
     text-align: center
+    position: fixed
+    bottom: 0
     a
         color: #CCD6DD
         text-decoration: none

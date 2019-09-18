@@ -9,6 +9,7 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
+  height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -224,13 +225,13 @@ header h1 {
           box-shadow: 2px 4px 10px -5px #272B2B;
   background: #CCD6DD;
   height: 500px;
-  width: 300px;
-  padding: .5em;
+  width: 250px;
+  padding: 1em;
 }
 
 .help-card .card img {
   border-radius: 1em;
-  width: 70%;
+  width: 80%;
   -webkit-transition: -webkit-clip-path .4s ease;
   transition: -webkit-clip-path .4s ease;
   transition: clip-path .4s ease;
@@ -241,12 +242,22 @@ header h1 {
   cursor: pointer;
 }
 
+.help-card .card h3 {
+  margin-bottom: 25px;
+}
+
+.help-card .card p {
+  text-align: justify;
+}
+
 footer {
   background: #272B2B;
   color: #DD2E44;
   height: 3vh;
   width: 100%;
   text-align: center;
+  position: fixed;
+  bottom: 0;
 }
 
 footer a {
