@@ -69,10 +69,14 @@ header h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
   width: 80%;
+}
+
+.nav-links li {
+  margin: 0 20px;
 }
 
 .nav-links li a {
@@ -103,15 +107,16 @@ header h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 20%;
 }
 
 .social-links li {
   color: #CCD6DD;
   font-size: 16px;
+  margin: 0 7px;
 }
 
 .social-links li a {
